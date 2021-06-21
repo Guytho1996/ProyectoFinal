@@ -1,0 +1,32 @@
+{
+    "name": "api-carrera",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js --exec babel-node",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./src/index.js"
+    },
+    "author": "Guido Calderón",
+    "license": "ISC",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "pg": "^8.5.1",
+        "pg-hstore": "^2.3.3",
+        "node-fetch": "^2.6.1",
+        "nodemon": "^2.0.4",
+        "sequelize": "^6.5.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.12.3",
+        "@babel/node": "^7.12.1",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-typescript": "^7.12.1",
+        "morgan": "^1.10.0"
+    }
+}
